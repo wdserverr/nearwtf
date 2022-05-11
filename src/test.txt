@@ -1,0 +1,20 @@
+{accountId ?
+  <TipButton
+  className=""
+    // Change this to your account id!
+    receiver="mosesfinlay.testnet"
+    sendNear={this.sendNear}
+  />
+  :
+  <a className="login" onClick={this.nearLogin}>Login</a>
+  }
+  {accountId &&
+  <>
+    <p className="mb-0">Signed in as: {accountId}</p>
+
+    {/* Clickable link for user's to sign out */}
+    <a href="/" className="login" onClick={() => this.state.wallet.signOut()}>
+      <img src="blob:https://paras.id/ddd9613c-db65-417a-842c-cc90bc11278c" />
+    </a>
+  </>
+  }

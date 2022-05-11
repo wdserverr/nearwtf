@@ -1,0 +1,58 @@
+.mid{
+	right: 100px;
+	height: 55px;
+	width: 500px;
+	position: absolute;
+	/* border: 3px solid red; */
+	background-color: black;
+	font-weight: 400;
+	padding-left: 520px;
+	padding-right: 100px;
+	top: -12px;
+}
+@media screen and (max-width: 390) {
+	.mid{
+		right: 406px;
+		height: 55px;
+		width: 500px;
+		position: absolute;
+		/* border: 3px solid red; */
+		background-color: black;
+		font-weight: 400;
+		padding-left: 520px;
+		padding-right: 100px;
+		top: -12px;
+	}
+  }
+.dogs{
+	top: 0px;
+	right: 450px;
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+}
+.cats{
+	top: 0px;
+	right: 375px;
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+}
+.sheeps{
+	right: 300px;
+	top: 0px;
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+}
+.goats{
+	right: 200px;
+	top: 0px;
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+}
